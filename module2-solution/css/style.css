@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.urtag {
+  text-align: center;
+  width: 130px;
+  height: 30px;
+  float: right;
+  border: 5px solid black;
+  position: relative;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+#yt1 {
+  background-color: yellow;
+}
+#rt1 {
+  background-color: red;
+}
+#gt1 {
+  background-color: lime;
+}
+
+.urtag {
+  text-align: center;
+  width: 130px;
+  height: 30px;
+  border: 3px solid black;
+  margin: 0px;
+  float: right;
+}
+
+
+p {
+  clear: right;
+  font-family: Helvetica;
+  color: black;
+  word-wrap: break-word;
+}
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+	
+  .rcard {
+    float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding: 5px;
+    width: 33.33%;	
+  }
+
+  .lg3w, .md2w, .md1w {
+    background-color: #d3d3d3;
+    border: 3px solid black;
+  }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+  .rcard2 {
+    float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding: 5px;
+    width: 50%;	
+  }
+  
+  .rcard1 {
+    float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding: 5px;
+    width: 100%;	
+  }
+  
+  .md2w {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+    background-color: #d3d3d3;
+    border: 3px solid black;
+	width: 100%;
+  }
+  
+  .md1w {
+    background-color: #d3d3d3;
+    border: 3px solid black;
+	width: 100%;	
+  }
+
+}
+
+@media (max-width: 767px) {
+	
+  .rcard {
+	float: left;
+    width: 100%;
+	padding: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+  }
+  
+  .sm1w {
+    background-color: #d3d3d3;
+    border: 3px solid black;
+    width: 100%;
+  }
+}
